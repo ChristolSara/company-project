@@ -20,8 +20,8 @@ public class CompanyServicesApplication {
     @Bean
     CommandLineRunner start(CompanyRepository companyRepository) {
         return args -> {
-            Stream.of("A","B","C").forEach(cn ->{
-                companyRepository.save(new Company(null,cn,100+Math.random()*900));
+            Stream.of("A", "B", "C").forEach(cn -> {
+                companyRepository.save(new Company(null, cn, 100 + Math.random() * 900));
             });
             companyRepository.findAll().forEach(System.out::println);
         };

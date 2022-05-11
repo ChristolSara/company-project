@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
 import java.util.Map;
+
 @RefreshScope //pour actualiser le chargemment des parametres//
 @RestController
 public class companyRestService {
@@ -18,8 +19,8 @@ public class companyRestService {
     private String me;
 
     @GetMapping("/myConfig")
-    public Map<String,Object> myConfig(){
-        Map<String,Object> params=new HashMap<>();
+    public Map<String, Object> myConfig() {
+        Map<String, Object> params = new HashMap<>();
         params.put("xParam", xParam);
         params.put("yParam", yParam);
         params.put("me", me);
@@ -27,7 +28,6 @@ public class companyRestService {
         return params;
 
     }
-
 
 
 }
