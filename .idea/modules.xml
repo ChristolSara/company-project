@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/service-register.iml" filepath="$PROJECT_DIR$/service-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company-projet/company-services.iml" filepath="$PROJECT_DIR$/company-projet/company-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-config/service-config.iml" filepath="$PROJECT_DIR$/service-config/service-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-proxy/service-proxy.iml" filepath="$PROJECT_DIR$/service-proxy/service-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-register/service-register.iml" filepath="$PROJECT_DIR$/service-register/service-register.iml" />
     </modules>
   </component>
 </project>
